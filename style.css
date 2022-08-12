@@ -1,0 +1,179 @@
+#footer{
+    background:#0d2d40 ;
+   }
+
+#footer a {
+    color: #ffffff;
+}
+
+.bg-bfit{
+    background-color: #242424;
+}
+.bg-bfit a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.breakin{
+   
+color: #bccdd4;
+font-family: Roboto;
+font-size: 60px;
+font-weight: 300px;
+font-style: black;
+line-height: 70.31px;
+letter-spacing: 0em;
+text-align: center;
+}
+.breakin-fit{
+    font-family:roboto-black;
+    font-size: 102px;
+    font-weight: 200px;
+    line-height: 120px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #bccdd4;
+    font-style: black;
+   
+}
+.b-fit{
+    font-family: Beatstreet;
+    text-align: center;
+    font-size: 36px!important;
+    color: #e2f7ff;
+    
+   
+}
+#breakin-fit{
+    background: linear-gradient(180deg, rgba(39, 39, 39, 0) 51.04%, #272727 100%);
+    
+ 
+}
+.display-4{
+    color:#19d7bb;
+    font-size: 25px;
+    font-family:Roboto;
+}
+
+.display-1{
+    font-family: Beatstreet;
+    color:#19d7bb;
+    font-size: 45px; 
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+.card-height{
+    height: 350px;
+    background: #ADBCC2;
+ 
+    border-color:#E2F7FF;
+    font-size: 14px;
+    border-style: unset;
+   
+
+}
+
+.btn-fit{
+    color: #242424;
+    background: #ADBCC2;
+    border-style:solid;
+    border-radius: unset;
+    font-size: 14px;
+   
+    
+    
+}
+.btn-bfit{
+  color: #E2F7FF;
+  background:#242424 ;
+  border-style:solid;
+  font-size: 14px;
+  border-radius: unset;
+  padding: 10px;
+  margin-top: 0px;
+ 
+}
+.car-color-height{
+    background: #272727;
+    color: #e2f7ff;
+    height: 350px;
+    border-color: #ADBCC2;
+    border-left: #ADBCC2;
+    border-top: #ADBCC2;
+    border-bottom: #ADBCC2;
+    font-size: 14px;
+ 
+}
+.bg-imagen{
+  
+position: absolute;
+width: 1920px;
+height: 741px;
+left: 0px;
+top: 1170px;
+}
+
+.btn-breakin{
+    background: transparent;
+    color: #00FFB2;
+   border-color: #19d7bb;
+   border-radius: 0%;
+   font-size: 15px;
+   
+
+}
+
+.breakinf{
+
+font-family: Beatstreet;
+font-size: 56px;
+font-weight: 400;
+line-height: 46px;
+line-height: 50.4px;
+letter-spacing: -0.02em;
+text-align: right;
+color: #ADBCC2;
+
+
+
+}
+
+.card-organic{
+    height: 350px;
+    background:#00FFB2;
+ 
+    border-color:#00FFB2;
+    font-size: 14px;
+    border-style: unset;
+   
+
+}
+.btn-rehabilitacion{
+    color: #3CDCFF;
+    background: #00FFB2;
+    border-style:solid;
+    border-radius: unset;
+    font-size: 14px;
+    
+   
+}
+.card-body{
+    background: #272727;
+    color: #e2f7ff;
+    height: 100px;
+   
+    font-size: 14px;
+
+}
+.btn-solicita{
+    background: transparent;
+    color: #00FFB2;
+   border-color: #19d7bb;
+   border-radius: 0%;
+   font-size: 25px;
+   width: 211px;
+   height: 58px;
+ 
+     
+}
+
