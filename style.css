@@ -129,11 +129,11 @@ text-align: center;
 }
 .bg-imagen{
   
-position: absolute;
-width: 1920px;
-height: 741px;
-left: 0px;
-top: 1170px;
+    position: absolute;
+    width: 1920px;
+    height: 741px;
+    left: 0px;
+    top: 1170px;
 }
 
 .btn-breakin{
