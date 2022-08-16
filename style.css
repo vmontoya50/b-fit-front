@@ -190,7 +190,7 @@ color: #ADBCC2;
 
 }
 .btn-rehabilitacion{
-    color: #3CDCFF;
+    color: black;
     background: #00FFB2;
     border-style:solid;
     border-radius: unset;
@@ -391,4 +391,9 @@ color: #ADBCC2;
       .GradientValoresCard{
         background: linear-gradient(179.48deg, #CBEAF5 0.45%, #D6F0FA 26.49%, #E2F7FF 73.35%, #A1D1E2 111.53%);
         border-radius: 6px;
+      }
+
+      .GradientrehabilitacionCard{
+        background: linear-gradient(180deg, #3CDCFF 0%, #00FFB2  100%);
+        
       }
