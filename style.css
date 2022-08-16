@@ -231,7 +231,7 @@ color: #ADBCC2;
 }
 
 .servicio-titulo :hover{
-    height: 100%;
+   /* height: 100%;*/
     border-color: #00FFB2;
 }
 
@@ -241,6 +241,11 @@ color: #ADBCC2;
 
 .servicio-boton {
     display:none;
+    z-index: 2;
+}
+
+.noHover{
+    pointer-events: none;
 }
 
 .card-title{

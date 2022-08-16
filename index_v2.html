@@ -116,14 +116,14 @@
       <div class="row row-cols-lg-auto d-flex justify-content-around">
         <div class="card servicio-card col-md-3 col-lg-4 col-xl-3 mt-4 mb-4" style="padding:0; height: 222px; background-image: url(image/backend/imagen3.png); background-repeat: no-repeat;">           
           <div class="servicio-titulo" id="servicio-rehabilitacion" style="position:absolute; bottom:0px;">
-            <h4  style="color:#FFFFFF;" class="card-title">Rehabilitación</h4>
+            <h4  style="color:#FFFFFF;" id="servicio-rehabilitacion-titulo" class="card-title">Rehabilitación</h4>
             <div type="button" class="servicio-boton btn btn-md btn-breakin" > Ver más <i class="bi bi-chevron-right"></i></div>
           </div>
         </div>
 
         <div class="card servicio-card col-md-3 col-lg-4 col-xl-3 mt-4 mb-4" style="padding:0; height: 222px; background-image: url(/image/backend/imagen4.png); background-repeat: no-repeat;">           
           <div class="servicio-titulo" id="servicio-Organic" style="position:absolute; bottom:0px; ">
-            <h4  style="color:#FFFFFF;" class="card-title">Organic Fitness</h4>
+            <h4  style="color:#FFFFFF;"  id="servicio-Organic-titulo"  class="card-title">Organic Fitness</h4>
             <div type="button" class="servicio-boton btn btn-md btn-breakin" > Ver más <i class="bi bi-chevron-right"></i></div>
           </div>
         </div>    
@@ -354,15 +354,16 @@
       $(".servicio-card").hover(function(){
 
         let heightT = $( this ).height();
-        console.log("Altura total", heightT);
         id = $( this ).children().attr("id");
+        console.log("ID ", id);
+        console.log("Altura total ", heightT);
 
         if(typeof heightO === 'undefined' ){
           heightO = $( "#"+id ).height();
         }
 
         let finalHeight = heightT;
-       // $('#'+id +' .btn-breakin').removeClass('servicio-boton');
+        $('#'+id +' .btn-breakin').removeClass('servicio-boton');
 
         $('#'+id).animate({height: finalHeight});
 
@@ -370,7 +371,7 @@
       }, function(){
 
         $('#'+id).animate({height: heightO});
-       // $('#'+id +' .btn-breakin').addClass('servicio-boton');
+        $('#'+id +' .btn-breakin').addClass('servicio-boton');
       });
 
 /*      $(".servicio-titulo").hover(function(){
