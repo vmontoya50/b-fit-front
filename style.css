@@ -19,6 +19,20 @@
     font-weight: normal;
   }
 
+  @font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('/assets/fonsts/WorkSans-Regular.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'WorkSans-Light';
+    src: url('/assets/fonsts/WorkSans-Light.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
 #footer{
     background:#0d2d40 ;
    }
@@ -87,8 +101,7 @@ text-align: center;
 
 .card-height{
     height: 350px;
-    background: #ADBCC2;
- 
+    /*background: #ADBCC2;*/
     border-color:#E2F7FF;
     font-size: 14px;
     border-style: unset;
@@ -120,12 +133,11 @@ text-align: center;
     background: #272727;
     color: #e2f7ff;
     height: 350px;
-    border-color: #ADBCC2;
-    border-left: #ADBCC2;
-    border-top: #ADBCC2;
-    border-bottom: #ADBCC2;
+    border-color: #ADBCC2!important;
+    /*border-left: #ADBCC2!important;*/
+    /*border-top: #ADBCC2!important;*/
+    /*border-bottom: #ADBCC2!important;*/
     font-size: 14px;
- 
 }
 .bg-imagen{
   
@@ -369,3 +381,14 @@ color: #ADBCC2;
         .marquee:before, .marquee:after { width: 5rem; }
       }
     
+      .GradientValores{
+        background: linear-gradient(180deg, #E2F7FF 57.81%, #272727 91.15%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .GradientValoresCard{
+        background: linear-gradient(179.48deg, #CBEAF5 0.45%, #D6F0FA 26.49%, #E2F7FF 73.35%, #A1D1E2 111.53%);
+        border-radius: 6px;
+      }
