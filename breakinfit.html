@@ -27,15 +27,17 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
+                      <a class="nav-link" href="#">Quienes Somos</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                      <a class="nav-link" href="#">Servicios</a>
                       </a>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Cuenta</a>
+                      </li>
                       <ul class="dropdown-menu dropdown-menu-dark">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -46,10 +48,7 @@
                       </ul>
                     </li>
                   </ul>
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-success" type="submit">Search</button>
-                  </form>
+                 
                 </div>
               </div>
             </div>
@@ -117,8 +116,8 @@
   <div class="container">
       <div class="row">
           <div class=" px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-              <h1 class="display-1">B-Fit</h1>
-              <p class="display-4">Programa de entrenamiento online 10 Semanas</p>
+              <h1 class="display-1" style="font-size:56px;line-height: 68%;line-height: 94%v; vertical-align: top;letter-spacing: 1%;">B-Fit</h1>
+              <p class="display-4" style="font: size 32px ;line-height: 32px;line-height: 85%;vertical-align: top;letter-spacing: 1%;">Programa de entrenamiento online 10 Semanas</p>
           </div>
       </div>
    <div class="container-fluid text-white">
@@ -150,8 +149,37 @@
 
 </section>
 <!--/seccion texto y video-->
-<!--servicios-->
-<!--/servicios-->
+<!--Servicios-->
+<section class=" pt-2 ">
+  <div class="container ">
+    <div class="container">
+      <div class="row">
+          <div class=" px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center text-white">
+              <h1 class="display-1" style="color:#00FFB2 ;font-size: 64px;line-height: 82%;vertical-align: top;line-height: 64px;" >Servicios</h1>             
+          </div>
+      </div>
+      <div class="row row-cols-lg-auto d-flex justify-content-around">
+        <div class="card servicio-card col-md-3 col-lg-4 col-xl-3 mt-4 mb-4" style="padding:0; height: 222px; background-image: url(image/backend/imagen3.png); background-repeat: no-repeat;">           
+          <div class="servicio-titulo" id="servicio-rehabilitacion" style="position:absolute; bottom:0px;">
+            <h4  style="color:#FFFFFF;" id="servicio-rehabilitacion-titulo" class="card-title">Rehabilitación</h4>
+            <a href="./Rehabilitacion.html"><div type="button" class="servicio-boton btn btn-md btn-breakin" > Ver más <i class="bi bi-chevron-right"></i></div></a>
+          </div>
+        </div>
+
+        <div class="card servicio-card col-md-3 col-lg-4 col-xl-3 mt-4 mb-4" style="padding:0; height: 222px; background-image: url(/image/backend/imagen4.png); background-repeat: no-repeat;">           
+          <div class="servicio-titulo" id="servicio-Organic" style="position:absolute; bottom:0px; ">
+           <h4  style="color:#FFFFFF;"  id="servicio-Organic-titulo"  class="card-title">Organic Fitness</h4>
+           <a href="./organic-fitness.html"><div type="button" class="servicio-boton btn btn-md btn-breakin" > Ver más <i class="bi bi-chevron-right"></i></div></a>
+          </div>
+        </div>    
+      </div>
+      <div class="row">
+        <h1 style="font-size :12px;color:#E2F7FF ;margin-top: 35px;line-height: 22px;">¡Sesiones en vivo 1 a 1 con nuestros especialistas!</h1>
+      </div> 
+    </div>
+  </div>
+</section>
+ <!--/servicios-->
  <!--agendar-->
  <div class="container">
   <div class="row mt-5">
@@ -243,7 +271,68 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script>
+    const root = document.documentElement;
+    const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
+    const marqueeContent = document.querySelector("ul.marquee-content");
 
+    root.style.setProperty("--marquee-elements", marqueeContent.children.length);
+
+    for(let i=0; i<marqueeElementsDisplayed; i++) {
+      marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+    }
+
+    $( document ).ready(function() {
+
+      let heightO;
+      let id;
+
+      $(".servicio-card").hover(function(){
+
+        let heightT = $( this ).height();
+        id = $( this ).children().attr("id");
+        console.log("ID ", id);
+        console.log("Altura total ", heightT);
+
+        if(typeof heightO === 'undefined' ){
+          heightO = $( "#"+id ).height();
+        }
+
+        let finalHeight = heightT;
+        $('#'+id +' .btn-breakin').removeClass('servicio-boton');
+
+        $('#'+id).animate({height: finalHeight});
+
+       // $(".servicio-titulo").css("border-color",'blue');
+      }, function(){
+
+        $('#'+id).animate({height: heightO});
+        $('#'+id +' .btn-breakin').addClass('servicio-boton');
+      });
+
+/*      $(".servicio-titulo").hover(function(){
+
+        let heightT = $( this ).parent().height();
+        heightO = $( this ).height();
+        let finalHeight = heightT;
+        $('#'+this.id +' .btn-breakin').removeClass('servicio-boton');
+
+        $('#'+this.id).animate({height: finalHeight});
+
+       // $(".servicio-titulo").css("border-color",'blue');
+      }, function(){
+
+        $('#'+this.id).animate({height: heightO});
+        $('#'+this.id +' .btn-breakin').addClass('servicio-boton');
+      });*/
+
+    });
+
+  </script>
 
   </body>
 
