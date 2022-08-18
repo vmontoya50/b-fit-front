@@ -50,14 +50,14 @@
 }
 .breakin{
    
-color: #bccdd4;
-font-family: Roboto-Regular;
-font-size: 60px;
-font-weight: 300px;
-font-style: black;
-line-height: 70.31px;
-letter-spacing: 0em;
-text-align: center;
+    /*color: #bccdd4;*/
+    font-family: Roboto-Regular;
+    font-size: 60px;
+    font-weight: 300px;
+    font-style: black;
+    line-height: 70.31px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 .breakin-fit{
     font-family:Roboto-Black;
@@ -75,7 +75,7 @@ text-align: center;
     font-family: Beatstreet;
     text-align: center;
     font-size: 36px!important;
-    color: #e2f7ff;
+    /*color: #e2f7ff;*/
     
    
 }
@@ -366,7 +366,7 @@ color: #ADBCC2;
       }
       
       .marquee-content li img {
-        width: 100%;
+       /* width: 100%;*/
         /* height: 100%; */
        /* border: 2px solid #eee;*/
       }
@@ -396,4 +396,30 @@ color: #ADBCC2;
       .GradientrehabilitacionCard{
         background: linear-gradient(180deg, #3CDCFF 0%, #00FFB2  100%);
         
+      }
+
+      .GaadientTitulo{
+        background: linear-gradient(270deg, #3CDCFF -0.45%, #00FFB2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+
+      }
+
+      .GaadientTituloH1{
+        background: linear-gradient(177deg, #3CDCFF  31.77%, #00FFB2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+
+      }
+      
+      .GaadientTituloHeader{
+        background: rgb(226,247,255);
+        background: linear-gradient(177deg, rgba(226,247,255,1) 51.56%, rgba(0,157,228,1) 100%);
+        -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
       }
