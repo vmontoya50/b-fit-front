@@ -204,8 +204,8 @@ color: #ADBCC2;
 
 }
 .btn-solicita{
-    background: transparent;
-    color: #00FFB2;
+   background: transparent;
+   color: #00FFB2;
    border-color: #19d7bb;
    border-radius: 0%;
    font-size: 25px;
@@ -221,6 +221,7 @@ color: #ADBCC2;
 
 .sub-breakin-fit{
     margin-top: 200px;
+    margin-bottom: 40px;
  }
 
 .b-fit-p-semanas{
