@@ -60,14 +60,13 @@
     text-align: center;
 }
 .breakin-fit{
-    font-family:Roboto-Black;
+    font-family:Roboto-Regular;
     font-size: 102px;
     font-weight: 200px;
     line-height: 120px;
     letter-spacing: 0.01em;
     text-align: center;
-    color: #bccdd4;
-    font-style: black;
+  
    
 }
 
@@ -421,5 +420,6 @@ color: #ADBCC2;
         background: linear-gradient(177deg, rgba(226,247,255,1) 51.56%, rgba(0,157,228,1) 100%);
         -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      padding-top: 5px;
 
       }
