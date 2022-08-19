@@ -66,8 +66,6 @@
     line-height: 120px;
     letter-spacing: 0.01em;
     text-align: center;
-  
-   
 }
 
 .b-fit{
@@ -422,4 +420,8 @@ color: #ADBCC2;
       -webkit-text-fill-color: transparent;
       padding-top: 5px;
 
+      }
+
+      .header-bfit{
+        height: 1114px;
       }
