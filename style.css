@@ -519,3 +519,15 @@ color: #ADBCC2;
       .header-bfit{
         height: 1114px;
       }
+
+      .backgroundB{
+       /* background-image: url('./image/backend/imageprincipal.png');
+        background-size: cover;
+        background-repeat: no-repeat;*/
+
+        background-image: url('image/backend/imageprincipal.png')!important; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+      }
