@@ -280,22 +280,26 @@ color: #ADBCC2;
     height: 130px!important;
   }
 }
-
-@media (max-width:400px) and (min-width: 280px){
+@media (max-width:380px) and (min-width: 280px){
   .servicio-card{
-    height: 210px!important;
+    height: 170px!important;
+  }
+} 
+@media (max-width:400px) and (min-width: 380px){
+  .servicio-card{
+    height: 220px!important;
   }
 }
 
 @media (max-width:410px) and (min-width: 400px){
   .servicio-card{
-    height: 220px!important;
+    height: 230px!important;
   }
 }
 
 @media (max-width:420px) and (min-width: 410px){
   .servicio-card{
-    height: 220px!important;
+    height: 240px!important;
   }
 }
 
@@ -305,7 +309,6 @@ color: #ADBCC2;
   }
   .header-servicios{
     height: 600px!important;
-    border: #00FFB2 solid 1px;
     font-size: 16px;
   }
 }
@@ -324,7 +327,7 @@ color: #ADBCC2;
 
 }
 
-@media (max-width:766px) and (min-width: 350px){
+@media (max-width:766px) and (min-width: 481px){
   .servicio-card{
     height: 332px!important;
   }
