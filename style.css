@@ -34,22 +34,22 @@
   }
 
   @font-face {
-    font-family: 'fonstsBrigherdz';
-    src: url('/assets/fonstsBrigherdz.ttf') format('truetype');
+    font-family: 'Brigherdz';
+    src: url('/assets/fonsts/Brigherdz.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
 
   @font-face {
-    font-family: 'Martyric_PersonalUse';
-    src: url('/assets/Martyric_PersonalUse.ttf') format('truetype');
+    font-family: 'Martyric';
+    src: url('/assets/fonsts/Martyric_PersonalUse.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
 
   @font-face {
     font-family: 'Empires';
-    src: url('/assets/Empires.otf') format('truetype');
+    src: url('/assets/fonsts/Empires.otf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
@@ -99,6 +99,14 @@
   margin: 22px;
 }
 
+.ff-Martyric{
+  font-family: Martyric;
+}
+
+.ff-Brigherdz{
+  font-family: Brigherdz;
+}
+
 .b-fit{
     font-family: Beatstreet;
     text-align: center;
@@ -120,7 +128,7 @@
 }
 
 .display-1{
-    font-family: Beatstreet;
+    font-family: Brigherdz;
     color:#00FFB2;
     font-size: 45px; 
     letter-spacing: 1%;
