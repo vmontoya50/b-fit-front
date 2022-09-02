@@ -33,6 +33,27 @@
     font-weight: normal;
   }
 
+  @font-face {
+    font-family: 'fonstsBrigherdz';
+    src: url('/assets/fonstsBrigherdz.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Martyric_PersonalUse';
+    src: url('/assets/Martyric_PersonalUse.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Empires';
+    src: url('/assets/Empires.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
 #footer{
     background:#0d2d40 ;
    }
@@ -534,3 +555,13 @@ color: #ADBCC2;
         background-position: center center;
         background-size: cover;
       }
+
+      #video {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        z-index: -10;
+        visibility: visible;
+        }
