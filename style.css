@@ -105,7 +105,9 @@
 
 .ff-Brigherdz{
   font-family: Brigherdz;
+  font-size: 46px;
 }
+
 
 .ff-Empires{
   font-family: Empires;
@@ -134,7 +136,7 @@
 .display-1{
     font-family: Brigherdz;
     color:#00FFB2;
-    font-size: 45px; 
+    font-size: 55px; 
     letter-spacing: 1%;
     text-align: center;
 }
