@@ -80,6 +80,7 @@
     letter-spacing: 0em;
     text-align: center;
 }
+
 .breakin-fit{
     font-family:Roboto-Regular;
     font-size: 102px;
@@ -318,15 +319,24 @@ color: #ADBCC2;
   .servicio-card{
     height: 130px!important;
   }
+  .fzTitulo{
+    font-size: 20px;
+  }
 }
 @media (max-width:380px) and (min-width: 280px){
   .servicio-card{
     height: 170px!important;
   }
+  .fzTitulo{
+    font-size: 20px;
+  }
 } 
 @media (max-width:400px) and (min-width: 380px){
   .servicio-card{
     height: 220px!important;
+  }
+  .fzTitulo{
+    font-size: 20px;
   }
 }
 
@@ -334,11 +344,19 @@ color: #ADBCC2;
   .servicio-card{
     height: 230px!important;
   }
+  .fzTitulo{
+    font-size: 20px;
+    line-height:20px!important;
+  }
 }
 
 @media (max-width:420px) and (min-width: 410px){
   .servicio-card{
     height: 240px!important;
+  }  
+  .fzTitulo{
+    font-size: 20px;
+    line-height:20px!important;
   }
 }
 
@@ -349,6 +367,10 @@ color: #ADBCC2;
   .header-servicios{
     height: 600px!important;
     font-size: 16px;
+  }
+  .fzTitulo{
+    font-size: 20px;
+    line-height:20px!important;
   }
 }
 
@@ -370,11 +392,19 @@ color: #ADBCC2;
   .servicio-card{
     height: 332px!important;
   }
+  .fzTitulo{
+    font-size: 30px;
+    line-height:30px!important;
+  }
 }
 
 @media (max-width:800px) and (min-width: 766px){
   .servicio-card{
     height: 202px!important;
+  }
+  .fzTitulo{
+    font-size: 35px;
+    line-height:35px!important;
   }
 }
 
@@ -382,11 +412,21 @@ color: #ADBCC2;
   .servicio-card{
     height: 202px!important;
   }
+
+  .fzTitulo{
+    font-size: 40px;
+    line-height:40px!important;
+  }
 }
 
 @media (max-width:1200px) and (min-width: 1000px){
   .servicio-card{
     height: 222px!important;
+  }
+
+  .fzTitulo{
+    font-size: 65px;
+    line-height:65px!important;
   }
 }
 
@@ -553,8 +593,8 @@ color: #ADBCC2;
         background: rgb(226,247,255);
         background: linear-gradient(177deg, rgba(226,247,255,1) 51.56%, rgba(0,157,228,1) 100%);
         -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      padding-top: 5px;
+        -webkit-text-fill-color: transparent;
+        padding-top: 5px;
 
       }
 
