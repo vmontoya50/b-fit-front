@@ -113,6 +113,9 @@
   font-size: 100px;
 }
 
+.ff-roboto{
+  font-family: Roboto-Regular;
+}
 
 .ff-Empires{
   font-family: Empires;
@@ -131,13 +134,7 @@
    
 }
 
-.fit{
-  font-family:Roboto-Regular ;
-  font-size: 16px;
- 
-  
- 
-}
+
 
 #breakin-fit{
     background: linear-gradient(180deg, rgba(39, 39, 39, 0) 51.04%, #272727 100%);
