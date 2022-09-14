@@ -113,6 +113,9 @@
   font-size: 100px;
 }
 
+.ff-roboto{
+  font-family: Roboto-Regular;
+}
 
 .ff-Empires{
   font-family: Empires;
@@ -131,6 +134,8 @@
    
 }
 
+
+
 #breakin-fit{
     background: linear-gradient(180deg, rgba(39, 39, 39, 0) 51.04%, #272727 100%);
     
@@ -143,12 +148,23 @@
 }
 
 .display-1{
-    font-family: Brigherdz;
+    font-family:Brigherdz ;
     color:#00FFB2;
     font-size: 55px; 
     letter-spacing: 1%;
     text-align: center;
 }
+
+.hitt{
+  font-family:Martyric;
+  color:#00FFB2;
+  font-size: 55px; 
+  letter-spacing: 1%;
+  text-align: center;
+}
+
+
+
 
 .card-height{
     height: 350px;
@@ -201,8 +217,8 @@
 
 .btn-breakin{
     background: transparent;
-    color: #00FFB2;
-    border-color: #19d7bb;
+    background: rgb(226,247,255);
+    background: linear-gradient(177deg, rgba(226,247,255,1) 51.56%, rgba(0,157,228,1) 100%);
     border-radius: 0%;
     font-size: 15px;
 }
@@ -630,6 +646,14 @@ color: #ADBCC2;
       }
       
       .GaadientTituloHeader{
+        background: rgb(226,247,255);
+        background: linear-gradient(177deg, rgba(226,247,255,1) 51.56%, rgba(0,157,228,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 5px;
+
+      }
+      .GaadientText{
         background: rgb(226,247,255);
         background: linear-gradient(177deg, rgba(226,247,255,1) 51.56%, rgba(0,157,228,1) 100%);
         -webkit-background-clip: text;
