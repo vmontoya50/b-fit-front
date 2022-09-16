@@ -216,11 +216,49 @@
 }
 
 .btn-breakin{
-    background: transparent;
+    border-color: rgba(0,157,228,1);
+    color:  rgba(0,157,228,1);
+    /*background: transparent;
     background: rgb(226,247,255);
-    background: linear-gradient(177deg, rgba(226,247,255,1) 51.56%, rgba(0,157,228,1) 100%);
+    background: linear-gradient(177deg, rgba(226,247,255,1) 51.56%, rgba(0,157,228,1) 100%);*/
     border-radius: 0%;
     font-size: 15px;
+}
+
+.btn-breakin:hover{
+  border-color: white!important;
+}
+
+.btn-simple-breakin{
+  background: transparent;
+  background: rgb(226,247,255);
+  background: linear-gradient(177deg, rgba(226,247,255,1) 51.56%, rgba(0,157,228,1) 100%)!important;
+  border-radius: 0%;
+  font-size: 15px;
+}
+
+.bg-breakinGradient{
+  border-color: linear-gradient(177deg, rgba(226,247,255,1) 51.56%, rgba(0,157,228,1) 100%);
+}
+
+.btn-Gradient{
+  background: transparent;
+  color: rgba(0,157,228,1);
+  border-radius: 0%;
+  border: 1px solid #3CDCFF;   
+  padding: 5px; 
+}
+
+.btn-Gradient:hover{
+  border-color: #3CDCFF;
+}
+
+.btn-gradient-2 {
+  background: 
+    linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+    linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
 }
 
 .btn-breakin-text{
@@ -232,37 +270,29 @@
 
 
 .breakinf{
-
-font-family: Beatstreet;
-font-size: 56px;
-font-weight: 400;
-line-height: 46px;
-line-height: 50.4px;
-letter-spacing: -0.02em;
-color: #ADBCC2;
-
-
-
+  font-family: Beatstreet;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 46px;
+  line-height: 50.4px;
+  letter-spacing: -0.02em;
+  color: #ADBCC2;
 }
 
 .card-organic{
     height: 350px;
     background:#00FFB2;
- 
     border-color:#00FFB2;
     font-size: 14px;
     border-style: unset;
-   
-
 }
+
 .btn-rehabilitacion{
     color: black;
     background: #00FFB2;
     border-style:solid;
     border-radius: unset;
     font-size: 14px;
-    
-   
 }
 .card-body{
     background: #272727;
@@ -270,8 +300,8 @@ color: #ADBCC2;
     height: 100px;
    
     font-size: 14px;
-
 }
+
 .btn-solicita{
    background: transparent;
    color: #00FFB2;
@@ -279,9 +309,7 @@ color: #ADBCC2;
    border-radius: 0%;
    font-size: 25px;
    width: 211px;
-   height: 58px;
- 
-     
+   height: 58px;     
 }
 
 #place-time{
